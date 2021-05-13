@@ -1,5 +1,6 @@
 n,k = map(int,input().split())
-count = 0 
+count = 0
+
 while True:
     if n % k == 0:
         n //= k
@@ -10,6 +11,7 @@ while True:
     if n == 1:
         break
 print(count)
+
 
 ''' sol.1 '''
 n,k = map(int,input().split())
@@ -27,6 +29,7 @@ while n > 1:
     n -= 1
     result += 1
 print(result)
+
 
 ''' sol.2 '''
 n,k = map(int,input().split())

@@ -1,22 +1,23 @@
 ''' sol.1 '''
+# 배열의 크기 n, 숫자가 더해지는 횟수 m, 최대 횟수 k
 n,m,k = map(int,input().split())
-n_list=list(map(int,input().split()))
-result = 0
+n_list = list(map(int,input().split()))
+result =0
 
 n_list.sort()
 first = n_list[n-1]
 second = n_list[n-2]
 
 while True:
-    for i in range(k): #가장 큰 수를 K번 더하기
-        if m == 0:
+    for i in range(k): # 가장 큰 수를 k번 더함
+        if m == 0: # m = 0일 때, while문 탈출
             break
         result += first
-        m -= 1
-    if m == 0: # m이 0이라면 while문 탈출
+    if m == 0: # m = 0일 때, while문 탈출
         break
     result += second
     m -= 1
+
 print(result)
 
 
