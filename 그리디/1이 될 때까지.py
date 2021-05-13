@@ -10,6 +10,7 @@ while True:
         count += 1
     if n == 1:
         break
+
 print(count)
 
 
@@ -28,6 +29,7 @@ while n >= k:
 while n > 1:
     n -= 1
     result += 1
+
 print(result)
 
 
@@ -47,4 +49,5 @@ while True:
     n //= k
 # 마지막으로 남은 수에 대하여 1싹 빼기
 result += (n-1)
+
 print(result)

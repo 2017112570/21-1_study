@@ -7,6 +7,7 @@ for i in range(n):
     result = max(result,min_value)
 print(result)
 
+
 ''' sol.2 2중 반복문 '''
 n,m = map(int,input().split())
 result = 0
