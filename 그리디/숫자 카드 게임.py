@@ -1,3 +1,6 @@
+n,m = map(int,input().split())
+result = 0
+
 ''' sol.1 min()함수 사용 '''
 n,m = map(int,input().split())
 result = 0
