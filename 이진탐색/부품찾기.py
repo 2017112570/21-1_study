@@ -1,20 +1,20 @@
 ''' 이진 탐색 이용 X '''
-# n = int(input())
-# n_list = list(map(int,input().split()))
+n = int(input())
+n_list = list(map(int,input().split()))
 
-# m = int(input())
-# m_list = list(map(int,input().split()))
+m = int(input())
+m_list = list(map(int,input().split()))
 
-# result = []
+result = []
 
-# for i in m_list:
-#     if i in n_list:
-#         result.append('yes')
-#     else:
-#         result.append('no')
+for i in m_list:
+    if i in n_list:
+        result.append('yes')
+    else:
+        result.append('no')
 
-# for i in result:
-#     print(i,end=' ')
+for i in result:
+    print(i,end=' ')
 
 
 ''' 이진 탐색 풀이 '''
